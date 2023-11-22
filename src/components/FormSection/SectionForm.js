@@ -1,8 +1,11 @@
 import './SectionForm.css';
+import Tips from '../Tips/Tips';
 
 function FormSection() {
     return (
-        <section className="formSection"></section>
+        <section className="formSection">
+            <Tips />
+        </section>
     );
 }
 
