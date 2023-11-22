@@ -5,9 +5,11 @@ export default function Tips() {
         <div className="tips">
             <h3>Tips</h3>
             <p>
-                Create a google maps pin of your location and share it in the email. If you don't know how, follow this short tutorial 👇🏾.
+                Copy the link to your location on google maps and share it in the email. If you don't know how, follow this simple 1 minute tutorial 👇🏾
             </p>
-            <p>paste the video url here</p>
+            <p>
+                <a target='blank' href='https://www.youtube.com/watch?v=BAPK7aoWfiQ'>Click here</a>
+            </p>
         </div>
     );
 }
