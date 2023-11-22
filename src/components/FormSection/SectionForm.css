@@ -3,4 +3,6 @@
     height: 80vh;
     background: linear-gradient(to bottom right, #F9C903, #0299CE, #00337F);
     display: flex;
+    margin-bottom: 60px;
+    border-radius: 4px;
 }

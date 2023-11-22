@@ -1,0 +1,21 @@
+footer {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+small {
+    font-weight: bold;
+}
+.socialIconsDiv {
+    display: flex;
+    place-content: center;
+    margin-top: 10px;
+}
+
+.footerIcon {
+    font-size: 42px;
+    margin: 9px;
+    cursor: pointer;
+}
