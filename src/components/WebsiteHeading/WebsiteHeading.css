@@ -1,0 +1,16 @@
+.websiteHeading {
+    display: flex;
+    width: 100vw;
+    /* background-color: seashell; */
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.websiteHeading img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
