@@ -5,6 +5,7 @@ export default function Footer() {
     return (
         <footer>
             <small>Built by Kelvin Njihia</small><br/>
+            <small>rocketmancodes02@gmail.com</small><br/>
             <small>{new Date().getFullYear()}</small>
             <div className='socialIconsDiv'>
                 <FaGithubSquare className='footerIcon' />

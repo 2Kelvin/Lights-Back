@@ -11,6 +11,7 @@ export function ContactUs() {
         emailjs.sendForm('service_3zl05qc', 'template_xtev06r', form.current, 'm83FmjUWYqxNFbQeK')
             .then((result) => {
                 console.log(result.text);
+                alert('success');
             }, (error) => {
                 console.log(error.text);
             });
@@ -18,23 +19,23 @@ export function ContactUs() {
 
     return (
         <form ref={form} onSubmit={sendEmail}>
-            <label type='hidden'>Email subject</label>
-            <input type='text' name='emailSubject' required />
+            <label htmlFor='inpEmailSubject'>Email subject</label>
+            <input type='text' name='emailSubject' required id='inpEmailSubject' />
 
-            <label for='inputName'>Name</label>
+            <label htmlFor='inputName'>Name</label>
             <input type="text" name="userName" required id='inputName' />
 
-            <label>Email</label>
-            <input type="email" name="userEmail" required />
+            <label htmlFor='inpEmail'>Email</label>
+            <input type="email" name="userEmail" required id='inpEmail' />
 
-            <label>Pin location</label>
-            <input type="text" name="userPinLocation" />
+            <label htmlFor='inpPin'>Pin location</label>
+            <input type="text" name="userPinLocation" id='inpPin' />
 
-            <label>Phone number</label>
-            <input type="tel" name="userPhoneNumber" />
+            <label htmlFor='inpPhoneNum'>Phone number</label>
+            <input type="tel" name="userPhoneNumber" id='inpPhoneNum' />
 
-            <label>Message</label>
-            <textarea name="message" required />
+            <label htmlFor='inpMessge'>Message</label>
+            <textarea name="message" required id='inpMessge' />
 
             <input className='sendButton' type="submit" value="Send" />
         </form>
