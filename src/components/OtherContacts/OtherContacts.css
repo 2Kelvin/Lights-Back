@@ -22,7 +22,7 @@
 .childDiv {
     background-color: white;
     margin: 10px;
-    width: 250px;
+    width: 280px;
     height: 230px;
     padding: 15px;
     display: flex;
@@ -34,7 +34,7 @@
 }
 
 .tel {
-    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .tel p {
