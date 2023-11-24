@@ -3,10 +3,10 @@ import './WebsiteHeading.css';
 
 function WebsiteHeading() {
     return (
-        <header className="websiteHeading">
-        <img src={lights} alt='logo'/>
+        <div className="websiteHeading">
+            <img src={lights} alt='logo' />
             <h1>LIGHTS BACK</h1>
-        </header>
+        </div>
     );
 }
 

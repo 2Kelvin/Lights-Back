@@ -1,6 +1,6 @@
 .tips {
     padding: 40px 25px;
-    width: 40%;
+    width: 60%;
     /* blur */
     background: rgba(255, 255, 255, 0.25);
     /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
@@ -10,4 +10,12 @@
 
 .tips h3 {
     margin: 0;
+}
+
+.tips a {
+    font-weight: 500;
+}
+.tips a:visited {
+    font-weight: 500;
+    color: #00337F;
 }

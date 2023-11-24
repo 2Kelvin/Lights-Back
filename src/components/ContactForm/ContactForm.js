@@ -20,8 +20,8 @@ export function ContactUs() {
     return (
         <form ref={form} onSubmit={sendEmail}>
             <div className='inpContainer'>
-                <input type='text' name='emailSubject' required />
-                <label className='labels'>Email subject</label>
+                <input type='text' name='emailSubject' required id='inpEmailSubject' />
+                <label className='labels' htmlFor='inpEmailSubject'>Email subject</label>
             </div>
 
             <div className='inpContainer'>

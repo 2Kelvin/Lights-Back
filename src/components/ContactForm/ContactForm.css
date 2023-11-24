@@ -1,5 +1,5 @@
 form {
-    width: calc(100% - 40% - 50px - 150px);
+    width: calc(100% - 48% - 50px - 150px);
     background-color: white;
     padding: 45px 80px;
 }
@@ -10,7 +10,7 @@ textarea {
     width: 100%;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
-    border: 1px solid rgb(39, 39, 39, 0.7);
+    border: 1px solid rgb(39, 39, 39, 0.8);
     border-radius: 5px;
     outline: none;
 }
@@ -40,16 +40,18 @@ textarea {
     padding: 0 5px;
     transition: 0.5s ease;
     pointer-events: none;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 input:focus {
-    border: 1px solid rgba(2, 152, 207, 0.7)
+    border: 1px solid rgba(2, 152, 207, 0.8)
 }
 
 input:focus+.labels {
     top: 0;
     background-color: white;
     color: #0299CE;
+    font-size: 14px;
 }
 
 .msgLabel {
@@ -60,16 +62,18 @@ input:focus+.labels {
     transition: 0.5s ease;
     pointer-events: none;
     padding: 0 5px;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 textarea:focus {
-    border: 1px solid rgba(2, 152, 207, 0.7)
+    border: 1px solid rgba(2, 152, 207, 0.8)
 }
 
 textarea:focus+.msgLabel {
     color: #0299CE;
     top: -10px;
     background-color: white;
+    font-size: 14px;
 }
 
 .sendButton {
@@ -80,4 +84,10 @@ textarea:focus+.msgLabel {
     width: 45%;
     color: white;
     font-weight: 500;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sendButton:active {
+    transform: scale(0.98);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }

@@ -1,12 +1,11 @@
 footer {
     padding: 10px;
-    margin-bottom: 15px;
     text-align: center;
     margin-top: 50px;
 }
 
 small {
-    font-weight: bold;
+    font-weight: 500;
 }
 .socialIconsDiv {
     display: flex;
