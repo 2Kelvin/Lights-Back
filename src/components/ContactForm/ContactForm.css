@@ -1,5 +1,5 @@
 form {
-    width: calc(100% - 48% - 50px - 150px);
+    width: calc(100% - 50% - 60px - 150px);
     background-color: white;
     padding: 45px 80px;
 }
@@ -80,7 +80,7 @@ textarea:focus+.msgLabel {
     height: 50px;
     background: linear-gradient(to right, #00337F, #0299CE);
     border: none;
-    margin-left: 63%;
+    margin-left: 60%;
     width: 45%;
     color: white;
     font-weight: 500;

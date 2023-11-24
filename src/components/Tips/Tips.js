@@ -4,11 +4,25 @@ import WebsiteHeading from '../WebsiteHeading/WebsiteHeading';
 export default function Tips() {
     return (
         <div className="tips">
-            <WebsiteHeading/>
+            <WebsiteHeading />
             <h3>Tips</h3>
-            <p>
-                Copy the link to your location on google maps and share it in the email. If you don't know how, follow this simple 1 minute <a target='blank' href='https://www.youtube.com/watch?v=BAPK7aoWfiQ'>tutorial</a>
-            </p>
+            <ul>
+                <li>
+                    Copy the link to your location on google maps and share it in the email. If you don't know how, follow this simple 1 minute <a target='blank' href='https://www.youtube.com/watch?v=BAPK7aoWfiQ'>tutorial</a>
+                </li>
+                <li>
+                    Your email subject should be less than 10 words.
+                </li>
+                <li>
+                    Provide your exact location in the email Subject.
+                </li>
+                <li>
+                    Example of a good email subject: Reporting a black out in Makongeni Phase 4, Thika.
+                </li>
+                <li>
+                    If it's a personal power issue, you can provide your contact number for cutomer care to reach out.
+                </li>
+            </ul>
         </div >
     );
 }
