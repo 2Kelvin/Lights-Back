@@ -14,7 +14,10 @@ export default function Tips() {
                     Your email subject should be less than 10 words.
                 </li>
                 <li>
-                    Provide your exact location in the email Subject.
+                    Don't include lengthy details in the email subject, you'll include this in the message section.
+                </li>
+                <li>
+                    Provide your exact location in the email subject.
                 </li>
                 <li>
                     Example of a good email subject: Reporting a black out in Makongeni Phase 4, Thika.

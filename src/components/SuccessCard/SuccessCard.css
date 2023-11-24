@@ -1,0 +1,29 @@
+.successCard {
+    width: 400px;
+    height: 280px;
+    border-radius: 5px;
+    position: absolute;
+    top: 36%;
+    left: 38%;
+    z-index: 1;
+    background-color: rgb(128, 0, 128, 0.5);
+    backdrop-filter: blur(2rem);
+    color: white;
+    font-size: 18px;
+    display: grid;
+    place-content: center;
+}
+
+.successCard .emailIcon {
+    height: 120px;
+    width: 170px;
+    color: #2EE746;
+}
+
+.noDisplay {
+    display: none;
+}
+
+.successCard p {
+    font-weight: 500;
+}

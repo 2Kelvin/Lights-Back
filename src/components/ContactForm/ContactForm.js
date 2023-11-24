@@ -1,9 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactForm.css';
+import SuccessCard from '../SuccessCard/SucessCard';
 
 export function ContactUs() {
     const form = useRef();
+    const [success, setSuccess] = useState('');
 
     function sendEmail(e) {
         e.preventDefault();
@@ -11,7 +13,10 @@ export function ContactUs() {
         emailjs.sendForm('service_3zl05qc', 'template_xtev06r', form.current, 'm83FmjUWYqxNFbQeK')
             .then((result) => {
                 console.log(result.text);
-                alert('success');
+                setSuccess('successful')
+                setTimeout(()=>{setSuccess('')}, 3000);
+                // clearing all input fields
+                form.current.reset();
             }, (error) => {
                 console.log(error.text);
             });
@@ -50,6 +55,8 @@ export function ContactUs() {
             </div>
 
             <input className='sendButton' type="submit" value="Send Email" />
+
+            {success === 'successful' ? <SuccessCard /> : null}
         </form>
     );
 };
