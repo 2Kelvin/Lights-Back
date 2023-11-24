@@ -1,28 +1,83 @@
 form {
     width: calc(100% - 40% - 50px - 150px);
     background-color: white;
-    padding: 40px 80px;
+    padding: 45px 80px;
 }
 
-input, textarea {
+input,
+textarea {
     display: block;
-    margin-bottom: 24px;
     width: 100%;
     font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    border: 1px solid rgb(39, 39, 39, 0.7);
+    border-radius: 5px;
+    outline: none;
 }
 
 input {
-    height: 25px;
+    height: 40px;
+    padding: 0 10px;
 }
 
 textarea {
-    height: 200px;
-    font-size: 13px;
+    height: 220px;
+    font-size: 14px;
+    padding: 7px 10px;
+}
+
+
+.inpContainer {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.labels {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    padding: 0 5px;
+    transition: 0.5s ease;
+    pointer-events: none;
+}
+
+input:focus {
+    border: 1px solid rgba(2, 152, 207, 0.7)
+}
+
+input:focus+.labels {
+    top: 0;
+    background-color: white;
+    color: #0299CE;
+}
+
+.msgLabel {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    transform: translateY(0%);
+    transition: 0.5s ease;
+    pointer-events: none;
+    padding: 0 5px;
+}
+
+textarea:focus {
+    border: 1px solid rgba(2, 152, 207, 0.7)
+}
+
+textarea:focus+.msgLabel {
+    color: #0299CE;
+    top: -10px;
+    background-color: white;
 }
 
 .sendButton {
     height: 50px;
-    background-color: dodgerblue;
-    margin: auto;
-    width: 60%;
+    background: linear-gradient(to right, #00337F, #0299CE);
+    border: none;
+    margin-left: 63%;
+    width: 45%;
+    color: white;
+    font-weight: 500;
 }

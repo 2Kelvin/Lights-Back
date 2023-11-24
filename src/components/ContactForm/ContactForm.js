@@ -19,25 +19,37 @@ export function ContactUs() {
 
     return (
         <form ref={form} onSubmit={sendEmail}>
-            <label htmlFor='inpEmailSubject'>Email subject</label>
-            <input type='text' name='emailSubject' required id='inpEmailSubject' />
+            <div className='inpContainer'>
+                <input type='text' name='emailSubject' required />
+                <label className='labels'>Email subject</label>
+            </div>
 
-            <label htmlFor='inputName'>Name</label>
-            <input type="text" name="userName" required id='inputName' />
+            <div className='inpContainer'>
+                <input type="text" name="userName" required id='inputName' />
+                <label className='labels' htmlFor='inputName'>Name</label>
+            </div>
 
-            <label htmlFor='inpEmail'>Email</label>
-            <input type="email" name="userEmail" required id='inpEmail' />
+            <div className='inpContainer'>
+                <input type="email" name="userEmail" required id='inpEmail' />
+                <label className='labels' htmlFor='inpEmail'>Email</label>
+            </div>
 
-            <label htmlFor='inpPin'>Pin location</label>
-            <input type="text" name="userPinLocation" id='inpPin' />
+            <div className='inpContainer'>
+                <input type="text" name="userPinLocation" id='inpPin' />
+                <label className='labels' htmlFor='inpPin'>Pin location</label>
+            </div>
 
-            <label htmlFor='inpPhoneNum'>Phone number</label>
-            <input type="tel" name="userPhoneNumber" id='inpPhoneNum' />
+            <div className='inpContainer'>
+                <input type="tel" name="userPhoneNumber" id='inpPhoneNum' />
+                <label className='labels' htmlFor='inpPhoneNum'>Phone number</label>
+            </div>
 
-            <label htmlFor='inpMessge'>Message</label>
-            <textarea name="message" required id='inpMessge' />
+            <div className='inpContainer msgContainer'>
+                <textarea name="message" required id='inpMessge' />
+                <label className='msgLabel' htmlFor='inpMessge'>Message</label>
+            </div>
 
-            <input className='sendButton' type="submit" value="Send" />
+            <input className='sendButton' type="submit" value="Send Email" />
         </form>
     );
 };
