@@ -44,14 +44,15 @@ textarea {
 }
 
 input:focus {
-    border: 1px solid rgba(2, 152, 207, 0.8)
+    border: 1px solid rgba(2, 152, 207, 0.9)
 }
 
-input:focus+.labels {
+input:focus+.labels,
+input:user-valid+.labels {
     top: 0;
     background-color: white;
     color: #0299CE;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .msgLabel {
@@ -66,14 +67,15 @@ input:focus+.labels {
 }
 
 textarea:focus {
-    border: 1px solid rgba(2, 152, 207, 0.8)
+    border: 1px solid rgba(2, 152, 207, 0.9)
 }
 
-textarea:focus+.msgLabel {
+textarea:focus+.msgLabel,
+textarea:valid+.msgLabel {
     color: #0299CE;
     top: -10px;
     background-color: white;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .sendButton {

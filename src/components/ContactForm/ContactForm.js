@@ -36,12 +36,12 @@ export function ContactUs() {
 
             <div className='inpContainer'>
                 <input type="text" name="userPinLocation" id='inpPin' />
-                <label className='labels' htmlFor='inpPin'>Pin location</label>
+                <label className='labels addedLabels' htmlFor='inpPin'>Pin location</label>
             </div>
 
             <div className='inpContainer'>
                 <input type="tel" name="userPhoneNumber" id='inpPhoneNum' />
-                <label className='labels' htmlFor='inpPhoneNum'>Phone number</label>
+                <label className='labels addedLabels' htmlFor='inpPhoneNum'>Phone number</label>
             </div>
 
             <div className='inpContainer msgContainer'>
