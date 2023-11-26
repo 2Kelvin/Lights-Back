@@ -1,7 +1,6 @@
 .otherContacts {
     background-color: #00337F;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding: 50px 0;
     margin-bottom: 60px;
     border-radius: 4px;
     width: 48%;
@@ -12,20 +11,18 @@
     color: white;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 
 .parent {
     display: flex;
     place-content: center;
-    margin-bottom: 15px;
 }
 
 .childDiv {
     background-color: white;
-    margin: 10px;
     width: 280px;
     height: 230px;
-    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;

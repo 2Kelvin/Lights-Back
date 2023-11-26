@@ -1,11 +1,14 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactForm.css';
-import SuccessCard from '../SuccessCard/SucessCard';
+import StatusCard from '../StatusCard/StatusCard';
+import { SiMinutemailer } from "react-icons/si";
+import { RiMailCloseLine } from "react-icons/ri";
 
 export function ContactUs() {
     const form = useRef();
     const [success, setSuccess] = useState('');
+    const [error, setError] = useState('');
 
     function sendEmail(e) {
         e.preventDefault();
@@ -14,11 +17,13 @@ export function ContactUs() {
             .then((result) => {
                 console.log(result.text);
                 setSuccess('successful')
-                setTimeout(()=>{setSuccess('')}, 3000);
+                setTimeout(() => { setSuccess('') }, 3000);
                 // clearing all input fields
                 form.current.reset();
             }, (error) => {
                 console.log(error.text);
+                setError('error');
+                setTimeout(() => { setError('') }, 3000);
             });
     };
 
@@ -56,7 +61,17 @@ export function ContactUs() {
 
             <input className='sendButton' type="submit" value="Send Email" />
 
-            {success === 'successful' ? <SuccessCard /> : null}
+            {success === 'successful' ?
+                <StatusCard
+                    theIcon={<SiMinutemailer className='emailIcon' />}
+                    msg='Email sent!'
+                /> : null}
+
+            {error === 'error' ?
+                <StatusCard
+                    theIcon={<RiMailCloseLine className='errIcon' />}
+                    msg='Email not sent! Check your network connection'
+                /> : null}
         </form>
     );
 };

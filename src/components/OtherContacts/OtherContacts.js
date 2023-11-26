@@ -11,7 +11,7 @@ function OtherContacts() {
                     <p>0703070707</p>
                     <p>0732170170</p>
                 </div>
-                <div className='childDiv ussd'>
+                <div className='childDiv'>
                     <h3>USSD</h3>
                     <p>*977#</p>
                 </div>
