@@ -1,19 +1,31 @@
 .formSection {
-    height: 80vh;
-    background: linear-gradient(to bottom right, #F9C903, #0299CE, #00337F);
     display: flex;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 60px;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #F9C903, #0299CE, #00337F);
+    height: fit-content;
     border-radius: 4px;
+    margin-bottom: 50px;
 }
 
-/* mobile phones: 600px */
-@media screen and (max-width: 600px) {
+/* mobile phones: 500px */
+/* @media screen and (max-width: 500px) {
     .formSection {
-        display: block;
+        flex-direction: column;
         width: 100%;
-        padding-top: 20px;
+        padding-top: 25px;
         height: fit-content;
+    }
+} */
+
+/* ================================= big screens ============================= */
+@media screen and (min-width: 1024px) {
+    .formSection {
+        height: 80vh;
+        background: linear-gradient(to bottom right, #F9C903, #0299CE, #00337F);
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 60px;
+        border-radius: 4px;
     }
 }

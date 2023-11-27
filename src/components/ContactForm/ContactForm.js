@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactForm.css';
 import StatusCard from '../StatusCard/StatusCard';
-import { SiMinutemailer } from "react-icons/si";
+import { MdMarkEmailRead } from "react-icons/md";
 import { RiMailCloseLine } from "react-icons/ri";
 
 export function ContactUs() {
@@ -63,7 +63,7 @@ export function ContactUs() {
 
             {success === 'successful' ?
                 <StatusCard
-                    theIcon={<SiMinutemailer className='emailIcon' />}
+                    theIcon={<MdMarkEmailRead className='emailIcon' />}
                     msg='Email sent!'
                 /> : null}
 

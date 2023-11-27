@@ -1,15 +1,14 @@
 .statusCard {
-    width: 280px;
-    height: 200px;
+    width: 250px;
+    height: 180px;
     border-radius: 5px;
     position: fixed;
-    top: 1%;
-    right: 0.5%;
+    top: 1.5%;
+    right: 0.8%;
     z-index: 1;
     background: linear-gradient(to bottom right, #00337F, #0299CE);
-    /* backdrop-filter: blur(40px); */
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;

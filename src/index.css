@@ -1,7 +1,7 @@
 body {
   margin: 0;
+  font-size: 14px;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(214, 214, 214);
@@ -15,9 +15,16 @@ html {
   scroll-behavior: smooth;
 }
 
-/* mobile phones: 600px */
-@media screen and (max-width: 600px) {
+/* big screens */
+@media screen and (min-width: 1024px) {
   body {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
+
+/* mobile phones: 600px */
+/* @media screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+} */

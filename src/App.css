@@ -1,12 +1,19 @@
 .App {
-  padding: 0 20px;
-  padding-top: 30px;
+  padding: 10px;
 }
 
-/* mobile-phones: 600px */
-@media screen and (max-width: 600px) {
+/* ================================= big screens ============================= */
+@media screen and (min-width: 1024px) {
   .App {
-    padding: 0 10px;
-    padding-top: 10px;
+    padding: 0 20px;
+    padding-top: 30px;
   }
 }
+
+/* mobile-phones: 500px */
+/* @media screen and (max-width: 500px) {
+  .App {
+    padding: 10px;
+    padding-top: 12px;
+  }
+} */

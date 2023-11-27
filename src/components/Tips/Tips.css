@@ -1,19 +1,16 @@
 .tips {
-    padding: 40px 30px;
-    width: 50%;
-    margin: 70px;
+    margin: 12px;
+    padding: 10px;
     /* blur */
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 #1f26875e;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
-.tips h3 {
-    margin: 0;
-    font-weight: 600;
-    margin-top: 40px;
+.tips li {
+    margin-bottom: 10px;
 }
 
 .tips a {
@@ -25,24 +22,54 @@
     color: #00337F;
 }
 
-.tips li {
-    margin-bottom: 15px;
+.tips h3 {
+    margin-top: 20px;
 }
 
-/* mobile phones: 600px */
-@media screen and (max-width: 600px) {
+/* mobile phones: 500px */
+/* @media screen and (max-width: 500px) {
     .tips {
-        padding: 20px;
-        width: 87%;
+        padding: 15px;
+        width: 75%;
         margin: auto;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .tips h3 {
         margin-top: 20px;
     }
+} */
+
+/* ================================= big screens ============================= */
+@media screen and (min-width: 1024px) {
+    .tips {
+        padding: 40px 30px;
+        width: 50%;
+        margin: 70px;
+        /* blur */
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 #1f26875e;
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 5px;
+    }
+
+    .tips h3 {
+        margin: 0;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+
+    .tips a {
+        font-weight: 500;
+        text-decoration: underline yellow 2px solid;
+    }
+
+    .tips a:visited {
+        color: #00337F;
+    }
 
     .tips li {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 }
