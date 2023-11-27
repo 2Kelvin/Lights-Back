@@ -7,3 +7,13 @@
     margin-bottom: 60px;
     border-radius: 4px;
 }
+
+/* mobile phones: 600px */
+@media screen and (max-width: 600px) {
+    .formSection {
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+        height: fit-content;
+    }
+}

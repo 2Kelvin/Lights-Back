@@ -22,10 +22,27 @@
 }
 
 .tips a:visited {
-    font-weight: 500;
     color: #00337F;
 }
 
 .tips li {
     margin-bottom: 15px;
+}
+
+/* mobile phones: 600px */
+@media screen and (max-width: 600px) {
+    .tips {
+        padding: 20px;
+        width: 87%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .tips h3 {
+        margin-top: 20px;
+    }
+
+    .tips li {
+        margin-bottom: 10px;
+    }
 }

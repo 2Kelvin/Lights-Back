@@ -42,3 +42,20 @@
 .otherContacts p {
     font-weight: 500;
 }
+
+/* mobile phones: 600px */
+@media screen and (max-width: 600px) {
+    .otherContacts {
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    .childDiv {
+        width: 230px;
+        height: 180px;
+    }
+
+    .tel {
+        margin-right: 40px;
+    }
+}
