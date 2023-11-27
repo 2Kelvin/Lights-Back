@@ -2,3 +2,11 @@
   padding: 0 20px;
   padding-top: 30px;
 }
+
+/* mobile-phones: 600px */
+@media screen and (max-width: 600px) {
+  .App {
+    padding: 0 10px;
+    padding-top: 10px;
+  }
+}

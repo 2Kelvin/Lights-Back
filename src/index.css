@@ -14,3 +14,10 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+/* mobile phones: 600px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+}
