@@ -16,10 +16,30 @@
         background: linear-gradient(to bottom right, #F9C903, #0299CE, #00337F);
         display: flex;
         flex-direction: row;
-        /* width: 80%; */
         margin: auto;
         margin-bottom: 60px;
         border-radius: 4px;
         width: 97%;
+    }
+}
+
+/* 1200px */
+@media screen and (min-width: 1200px) {
+    .formSection {
+        width: 90%;
+    }
+}
+
+/* 1640px */
+@media screen and (min-width: 1640px) {
+    .formSection {
+        width: 85%;
+    }
+}
+
+/* 1800px */
+@media screen and (min-width: 1800px) {
+    .formSection {
+        width: 80%;
     }
 }

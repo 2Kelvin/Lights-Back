@@ -74,3 +74,36 @@
         margin-bottom: 25px;
     }
 }
+
+/* 1400px */
+@media screen and (min-width: 1400px) {
+    .tips {
+        margin: 45px;
+    }
+}
+
+/* 1520px */
+@media screen and (min-width: 1520px) {
+    .tips {
+        margin: 55px;
+    }
+}
+
+/* 1640px */
+@media screen and (min-width: 1640px) {
+    .tips {
+        margin: 60px;
+    }
+}
+
+/* 1800px */
+@media screen and (min-width: 1800px) {
+    .tips {
+        margin: 70px;
+    }
+
+    .tips h3 {
+        margin-bottom: 26px;
+        margin-top: 45px;
+    }
+}

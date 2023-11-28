@@ -250,19 +250,51 @@ textarea:valid+.msgLabel {
         margin-bottom: 24px;
     }
 
-    input:focus+.labels,
-    input:user-valid+.labels {
-        font-size: 13px;
-    }
-
-    textarea:focus+.msgLabel,
-    textarea:valid+.msgLabel {
-        font-size: 13px;
-    }
-
     .sendButton {
         margin-left: 192px;
         width: 180px;
         height: 55px;
+    }
+}
+
+/* 1200px */
+@media screen and (min-width: 1200px) {
+    form {
+        padding: 0 50px;
+    }
+}
+
+/* 1400px */
+@media screen and (min-width: 1400px) {
+    form {
+        padding: 0 70px;
+    }
+}
+
+/* 1520px */
+@media screen and (min-width: 1520px) {
+    form {
+        padding: 0 80px;
+    }
+
+    input,
+    textarea {
+        width: 400px;
+    }
+
+    .sendButton {
+        margin-left: 242px;
+    }
+}
+
+/* 1800px */
+@media screen and (min-width: 1800px) {
+    input,
+    textarea {
+        width: 450px;
+    }
+
+    .sendButton {
+        margin-left: 291px;
     }
 }

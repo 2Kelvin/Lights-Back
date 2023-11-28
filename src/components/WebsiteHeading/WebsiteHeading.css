@@ -20,7 +20,7 @@
 
 
  /* ================================= MEDIA QUERIES ============================ */
- 
+
  /* ================================= big screens ============================= */
  @media screen and (min-width: 1024px) {
      .websiteHeading img {
@@ -28,7 +28,8 @@
          height: 70px;
          margin-right: 30px;
      }
+
      .websiteHeading h1 {
-        letter-spacing: 4px;
-    }
+         letter-spacing: 4px;
+     }
  }

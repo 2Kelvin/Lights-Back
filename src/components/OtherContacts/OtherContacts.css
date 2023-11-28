@@ -148,4 +148,43 @@
     .otherContacts p {
         font-weight: 500;
     }
+
+    .parent {
+        margin-bottom: 15px;
+    }
+}
+
+/* 1200px */
+@media screen and (min-width: 1200px) {
+    .otherContacts {
+        width: 65%;
+    }
+}
+
+/* 1400px */
+@media screen and (min-width: 1400px) {
+    .otherContacts {
+        width: 59%;
+    }
+}
+
+/* 1520px */
+@media screen and (min-width: 1520px) {
+    .otherContacts {
+        width: 54%;
+    }
+}
+
+/* 1640px */
+@media screen and (min-width: 1640px) {
+    .otherContacts {
+        width: 50%;
+    }
+}
+
+/* 1800px */
+@media screen and (min-width: 1800px) {
+    .otherContacts {
+        width: 45%;
+    }
 }
