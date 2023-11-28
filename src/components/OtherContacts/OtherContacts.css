@@ -128,7 +128,7 @@
 @media screen and (min-width: 1024px) {
     .otherContacts {
         margin-bottom: 60px;
-        width: 48%;
+        width: 75%;
         margin: auto;
     }
 
@@ -137,8 +137,8 @@
     }
 
     .childDiv {
-        width: 280px;
-        height: 230px;
+        width: 260px;
+        height: 220px;
     }
 
     .tel {

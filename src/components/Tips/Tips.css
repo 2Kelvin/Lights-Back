@@ -51,9 +51,8 @@
 /* big screens */
 @media screen and (min-width: 1024px) {
     .tips {
-        padding: 40px 30px;
-        width: 50%;
-        margin: 70px;
+        margin: 30px;
+        flex: 2;
     }
 
     .tips h3 {
@@ -72,6 +71,6 @@
     }
 
     .tips li {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 }

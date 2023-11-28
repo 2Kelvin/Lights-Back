@@ -12,12 +12,14 @@
 /* big screens */
 @media screen and (min-width: 1024px) {
     .formSection {
-        height: 80vh;
+        height: 90vh;
         background: linear-gradient(to bottom right, #F9C903, #0299CE, #00337F);
         display: flex;
-        width: 80%;
+        flex-direction: row;
+        /* width: 80%; */
         margin: auto;
         margin-bottom: 60px;
         border-radius: 4px;
+        width: 97%;
     }
 }
