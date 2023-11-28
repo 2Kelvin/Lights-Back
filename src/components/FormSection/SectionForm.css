@@ -7,17 +7,9 @@
     margin-bottom: 50px;
 }
 
-/* mobile phones: 500px */
-/* @media screen and (max-width: 500px) {
-    .formSection {
-        flex-direction: column;
-        width: 100%;
-        padding-top: 25px;
-        height: fit-content;
-    }
-} */
+/* ================================= MEDIA QUERIES ============================ */
 
-/* ================================= big screens ============================= */
+/* big screens */
 @media screen and (min-width: 1024px) {
     .formSection {
         height: 80vh;

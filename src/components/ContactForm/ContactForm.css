@@ -98,18 +98,40 @@ textarea:valid+.msgLabel {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* ================================= big screens ============================= */
+
+/* ================================= MEDIA QUERIES ============================ */
+
+/* min 600px */
+@media screen and (min-width: 600px) {
+    form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    input,
+    textarea {
+        width: 480px;
+        font-size: 14px;
+    }
+
+    .sendButton {
+        height: 55px;
+        width: 140px;
+        margin-left: 360px;
+    }
+
+    input {
+        height: 40px;
+    }
+}
+
+/*  big screens  */
 @media screen and (min-width: 1024px) {
     form {
+        /* change to grid in FormSection instead of using width */
         width: calc(100% - 50% - 60px - 150px);
-        background-color: white;
         padding: 45px 80px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
     }
 
     input,
@@ -117,89 +139,31 @@ textarea:valid+.msgLabel {
         display: block;
         width: 450px;
         font-size: 15px;
-        /* border: 1px solid rgb(39, 39, 39, 0.8);
-        font-family: 'Inter', sans-serif;
-        border-radius: 5px;
-        outline: none; */
-    }
-
-    input {
-        height: 40px;
-        /* padding: 0 10px; */
     }
 
     textarea {
         height: 220px;
         font-size: 14px;
-        /* padding: 7px 10px; */
     }
 
 
     .inpContainer {
         margin-bottom: 24px;
-        /* position: relative; */
     }
-
-    /* .labels {
-        position: absolute;
-        top: 50%;
-        left: 5px;
-        transform: translateY(-50%);
-        padding: 0 5px;
-        transition: 0.5s ease;
-        pointer-events: none;
-        color: rgba(0, 0, 0, 0.75);
-    } */
-
-    /* input:focus {
-        border: 1px solid rgba(2, 152, 207, 0.9)
-    } */
 
     input:focus+.labels,
     input:user-valid+.labels {
-        /* top: 0;
-        background-color: white;
-        color: #0299CE; */
         font-size: 13px;
     }
 
-    /* .msgLabel {
-        position: absolute;
-        top: 7px;
-        left: 5px;
-        transform: translateY(0%);
-        transition: 0.5s ease;
-        pointer-events: none;
-        padding: 0 5px;
-        color: rgba(0, 0, 0, 0.75);
-    } */
-
-    /* textarea:focus {
-        border: 1px solid rgba(2, 152, 207, 0.9)
-    } */
-
     textarea:focus+.msgLabel,
     textarea:valid+.msgLabel {
-        /* color: #0299CE;
-        top: -10px;
-        background-color: white; */
         font-size: 13px;
     }
 
     .sendButton {
         margin-left: 250px;
         width: 220px;
-        height: 50px;
-        /* background: linear-gradient(to right, #00337F, #0299CE);
-        border: none;
-        color: white;
-        font-weight: 500;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-        cursor: pointer; */
+        height: 60px;
     }
-
-    /* .sendButton:active {
-        transform: scale(0.98);
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    } */
 }
