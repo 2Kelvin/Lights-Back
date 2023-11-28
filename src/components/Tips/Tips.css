@@ -40,6 +40,14 @@
     }
 }
 
+/* 720px */
+@media screen and (min-width: 720px) {
+    .tips {
+        padding: 25px;
+        margin: 30px;
+    }
+}
+
 /* big screens */
 @media screen and (min-width: 1024px) {
     .tips {

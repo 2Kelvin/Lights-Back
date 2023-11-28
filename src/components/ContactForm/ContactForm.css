@@ -164,6 +164,63 @@ textarea:valid+.msgLabel {
     }
 }
 
+/* 720px */
+@media screen and (min-width: 720px) {
+    form {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    input,
+    textarea {
+        width: 620px;
+    }
+
+    .sendButton {
+        margin-left: 500px;
+    }
+}
+
+/* 840px */
+@media screen and (min-width: 840px) {
+    input,
+    textarea {
+        width: 690px;
+    }
+
+    input {
+        height: 45px;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    .sendButton {
+        margin-left: 572px;
+    }
+
+    textarea:focus+.msgLabel,
+    textarea:valid+.msgLabel {
+        font-size: 13px;
+    }
+
+    input:focus+.labels,
+    input:user-valid+.labels {
+        font-size: 13px;
+    }
+}
+
+/* 920px - 1024px */
+@media screen and (min-width: 920px) and (max-width: 1024px) {
+    input,
+    textarea {
+        width: 790px;
+    }
+    .sendButton {
+        margin-left: 673px;
+    }
+}
 
 /*  big screens  */
 @media screen and (min-width: 1024px) {

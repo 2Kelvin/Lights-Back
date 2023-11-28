@@ -77,7 +77,7 @@
 
     .childDiv {
         width: 200px;
-        height: 200px;
+        height: 180px;
     }
 
     .childDiv h3 {
@@ -86,6 +86,41 @@
 
     .tel {
         margin-right: 60px;
+    }
+}
+
+/* 720px */
+@media screen and (min-width: 720px) {
+    .childDiv {
+        width: 240px;
+        height: 200px;
+    }
+
+    .tel {
+        margin-right: 80px;
+    }
+}
+
+/* 840px */
+@media screen and (min-width: 840px) {
+    .tel {
+        margin-right: 120px;
+    }
+}
+
+/* 920px - 1024px */
+@media screen and (min-width: 920px) and (max-width: 1024px) {
+    .tel {
+        margin-right: 130px;
+    }
+
+    .childDiv {
+        width: 250px;
+        height: 210px;
+    }
+
+    .otherContacts {
+        padding: 60px 0;
     }
 }
 
