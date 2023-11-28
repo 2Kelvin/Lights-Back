@@ -9,7 +9,7 @@
     text-align: center;
     color: white;
     margin-top: 0;
-    /* margin-bottom: 40px; */
+    margin-bottom: 25px;
 }
 
 .parent {
@@ -44,10 +44,35 @@
 
 /* ================================= MEDIA QUERIES ============================ */
 
+/* 420px - 500px */
+@media screen and (min-width: 420px) and (max-width: 500px) {
+    .tel {
+        margin-right: 50px;
+    }
+}
+
+/* 500px - 540px */
+@media screen and (min-width: 500px) and (max-width: 540px) {
+    .tel {
+        margin-right: 50px;
+    }
+}
+
+/* 540px - 600px */
+@media screen and (min-width: 540px) and (max-width: 600px) {
+    .tel {
+        margin-right: 50px;
+    }
+}
+
 /* min 600px */
 @media screen and (min-width: 600px) {
     .otherContacts {
         padding: 50px 0;
+    }
+
+    .otherContacts h2 {
+        margin-bottom: 35px;
     }
 
     .childDiv {
@@ -60,7 +85,7 @@
     }
 
     .tel {
-        margin-right: 40px;
+        margin-right: 60px;
     }
 }
 

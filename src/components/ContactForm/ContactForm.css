@@ -101,6 +101,45 @@ textarea:valid+.msgLabel {
 
 /* ================================= MEDIA QUERIES ============================ */
 
+/* 420px - 500px */
+@media screen and (min-width: 420px) and (max-width: 500px) {
+
+    input,
+    textarea {
+        width: 360px;
+    }
+
+    .sendButton {
+        margin-left: 252px;
+    }
+}
+
+/* 500px - 540px */
+@media screen and (min-width: 500px) and (max-width: 540px) {
+
+    input,
+    textarea {
+        width: 420px;
+    }
+
+    .sendButton {
+        margin-left: 309px;
+    }
+}
+
+/* 540px - 600px */
+@media screen and (min-width: 540px) and (max-width: 600px) {
+
+    input,
+    textarea {
+        width: 460px;
+    }
+
+    .sendButton {
+        margin-left: 352px;
+    }
+}
+
 /* min 600px */
 @media screen and (min-width: 600px) {
     form {
@@ -124,6 +163,7 @@ textarea:valid+.msgLabel {
         height: 40px;
     }
 }
+
 
 /*  big screens  */
 @media screen and (min-width: 1024px) {
