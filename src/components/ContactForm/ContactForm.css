@@ -112,6 +112,31 @@ textarea:valid+.msgLabel {
 
 /* ================================= MEDIA QUERIES ============================ */
 
+/* 250px - 300px */
+@media screen and (min-width: 250px) and (max-width: 300px) {
+    input,
+    textarea {
+        width: 200px;
+    }
+
+    .sendButton {
+        margin-left: 91px;
+    }
+}
+
+/* 300px - 360px */
+@media screen and (min-width: 300px) and (max-width: 360px) {
+
+    input,
+    textarea {
+        width: 250px;
+    }
+
+    .sendButton {
+        margin-left: 142px;
+    }
+}
+
 /* 420px - 500px */
 @media screen and (min-width: 420px) and (max-width: 500px) {
 
@@ -194,7 +219,6 @@ textarea:valid+.msgLabel {
 
 /* 840px */
 @media screen and (min-width: 840px) {
-
     input,
     textarea {
         width: 690px;
@@ -241,7 +265,6 @@ textarea:valid+.msgLabel {
 
 /* 920px - 1024px */
 @media screen and (min-width: 920px) and (max-width: 1024px) {
-
     input,
     textarea {
         width: 790px;
@@ -258,7 +281,7 @@ textarea:valid+.msgLabel {
         border-top-right-radius: 4px;
         flex: 1;
         border-bottom-left-radius: 0;
-        padding: 0 30px;
+        padding: 10px 30px;
     }
 
     input,

@@ -44,6 +44,41 @@
 
 /* ================================= MEDIA QUERIES ============================ */
 
+/* 250px - 300px */
+@media screen and (min-width: 250px) and (max-width: 300px) {
+    .childDiv {
+        width: 110px;
+        height: 120px;
+    }
+
+    .tel {
+        margin-right: 8px;
+    }
+
+    .childDiv h3 {
+        font-size: 0.7em;
+    }
+    .childDiv p {
+        font-size: 0.9em;
+    }
+}
+
+/* 300px - 360px */
+@media screen and (min-width: 300px) and (max-width: 360px) {
+    .childDiv {
+        width: 130px;
+        height: 140px;
+    }
+
+    .tel {
+        margin-right: 30px;
+    }
+
+    .childDiv h3 {
+        font-size: 0.8em;
+    }
+}
+
 /* 420px - 500px */
 @media screen and (min-width: 420px) and (max-width: 500px) {
     .tel {
