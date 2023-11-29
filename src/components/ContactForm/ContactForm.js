@@ -30,33 +30,33 @@ export function ContactUs() {
     return (
         <form ref={form} onSubmit={sendEmail}>
             <div className='inpContainer'>
-                <input type='text' name='emailSubject' required id='inpEmailSubject' />
-                <label className='labels' htmlFor='inpEmailSubject'>Email subject</label>
+                <input type='text' name='emailSubject' required placeholder='' />
+                <label className='labels'>Email subject</label>
             </div>
 
             <div className='inpContainer'>
-                <input type="text" name="userName" required id='inputName' />
-                <label className='labels' htmlFor='inputName'>Name</label>
+                <input type="text" name="userName" required placeholder='' />
+                <label className='labels'>Name</label>
             </div>
 
             <div className='inpContainer'>
-                <input type="email" name="userEmail" required id='inpEmail' />
-                <label className='labels' htmlFor='inpEmail'>Email</label>
+                <input type="email" name="userEmail" required placeholder='' />
+                <label className='labels'>Email</label>
             </div>
 
             <div className='inpContainer'>
-                <input type="text" name="userPinLocation" id='inpPin' />
-                <label className='labels addedLabels' htmlFor='inpPin'>Pin location</label>
+                <input type="text" name="userPinLocation" placeholder='' />
+                <label className='labels addedLabels'>Pin location</label>
             </div>
 
             <div className='inpContainer'>
-                <input type="tel" name="userPhoneNumber" id='inpPhoneNum' />
-                <label className='labels addedLabels' htmlFor='inpPhoneNum'>Phone number</label>
+                <input type="tel" name="userPhoneNumber" placeholder='' />
+                <label className='labels addedLabels'>Phone number</label>
             </div>
 
             <div className='inpContainer msgContainer'>
-                <textarea name="message" required id='inpMessge' />
-                <label className='msgLabel' htmlFor='inpMessge'>Message</label>
+                <textarea name="message" required />
+                <label className='msgLabel'>Message</label>
             </div>
 
             <input className='sendButton' type="submit" value="Send Email" />
