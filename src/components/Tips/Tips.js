@@ -25,6 +25,9 @@ export default function Tips() {
                 <li>
                     If it's a personal power issue, you can provide your contact number for cutomer care to reach out.
                 </li>
+                <li>
+                    Include your full name in the name section (provide atleast two names).
+                </li>
             </ul>
         </div >
     );
