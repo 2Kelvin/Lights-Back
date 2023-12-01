@@ -12,6 +12,8 @@ On successful send of an email, the web application displays a email sent succes
 
 To avoid sending blank emails, the web app cannot send an email if the following three mandatory fields haven't been filled: email subject, name, email and message field. The pin location and phone number fields are optional but if filled can offer a better response experience to the client since the power company can directly reach them and tailor a way forward to offer a solution to their problem.
 
-If the client just wanted other contact information to reach the company, it's provided in the 'other contacts' section, either through a direct phone line to the company or through a USSD.
+If the client just wanted a different method to reach the company, it's provided in the 'other contacts' section, either through a direct phone line to the company or through a USSD.
+
+![otherKPLCslides](https://github.com/2Kelvin/lights-back/assets/85868026/ca8d6828-3e5c-4ef1-909d-2e0c970a3bee)
 
 In summary, this project's main goal was to reduce the time spent to researching for a valid way to reach the power company and get the help they need as soon as possible.
