@@ -16,4 +16,7 @@ If the client just wanted a different method to reach the company, it's provided
 
 ![otherKPLCslides](https://github.com/2Kelvin/lights-back/assets/85868026/ca8d6828-3e5c-4ef1-909d-2e0c970a3bee)
 
-In summary, this project's main goal was to reduce the time spent to researching for a valid way to reach the power company and get the help they need as soon as possible.
+In summary, this project aims to achieve these goals:
+- [x] reduce the time spent to researching for a valid way to reach the power company
+- [x] act as direct portal to reach the power company and ultimately get the help they need as soon as possible.
+- [x] have all the power company help contact all in one place for clients to find and use 
