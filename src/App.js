@@ -14,3 +14,5 @@ function App() {
 }
 
 export default App;
+
+// to update new app changes run: npm run deploy
