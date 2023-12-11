@@ -26,12 +26,15 @@ If the client just wanted a different method to reach the company, it's provided
 ## Installation
 
 Clone the project:
+
 ```git clone https://github.com/2Kelvin/lights-back.git```
 
 Navigate to the project folder:
+
 ```cd lights-back```
 
 Install project dependencies:
+
 ```npm install```
 
 ## Contribution
