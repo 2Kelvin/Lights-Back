@@ -9,6 +9,10 @@
 Link to the web app: Click [here](https://github.com/2Kelvin/lights-back)
 Developer's LinkedIn: Click [here](https://www.linkedin.com/in/kelvin-njihia)
 
+## What inspired Lights Back? The story behind the app
+
+A few years back, I lived in an area which experienced constant power blackouts regularly. We're talking about atleast 3 - 4 times a week. Some of this outages lasted for days. I remember going through light outages for 3 days. That's when I had the idea to try to solve this problem using what I already had, programming. I noticed that part of the long black out problems was due to the delay in reporting the issue. The reason, people didn't have the contacts to the power company or an easy to follow channel to do this. That's when I decided to build lights back for this exact reason.
+
 ## Usage
 
 The UI is pretty straightforward and user friendly. It's basically a form that a client fills reporting their power problem and in return this data is sent in form of an email to the power company. This was made possible through the `emailjs` service.
@@ -27,15 +31,15 @@ If the client just wanted a different method to reach the company, it's provided
 
 Clone the project:
 
-```git clone https://github.com/2Kelvin/lights-back.git```
+`git clone https://github.com/2Kelvin/lights-back.git`
 
 Navigate to the project folder:
 
-```cd lights-back```
+`cd lights-back`
 
 Install project dependencies:
 
-```npm install```
+`npm install`
 
 ## Contribution
 
@@ -44,6 +48,7 @@ If you want to contribute on this project feel free to contact me.
 ## Summary
 
 This project aims to achieve these goals:
+
 - [x] reduce time searching for a way to reach the power company.
 - [x] act as direct portal to the power company and get help as soon as possible.
-- [x] have all the power company's contacts in one place for clients to find and use responsibly. 
+- [x] have all the power company's contacts in one place for clients to find and use responsibly.
