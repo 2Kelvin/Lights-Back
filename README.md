@@ -7,11 +7,12 @@
 `lights-back` is a web application tailored to do one simple job, help a client report a power issue to the power company and get the help they need as soon as possible. Basically, acting as an easy and straightforward portal between the client and the power company.
 
 Link to the web app: Click [here](https://github.com/2Kelvin/lights-back)
+
 Developer's LinkedIn: Click [here](https://www.linkedin.com/in/kelvin-njihia)
 
 ## What inspired Lights Back? The story behind the app
 
-A few years back, I lived in an area which experienced constant power blackouts regularly. We're talking about atleast 3 - 4 times a week. Some of this outages lasted for days. I remember going through light outages for 3 days. That's when I had the idea to try to solve this problem using what I already had, programming. I noticed that part of the long black out problems was due to the delay in reporting the issue. The reason, people didn't have the contacts to the power company or an easy to follow channel to do this. That's when I decided to build lights back for this exact reason.
+A few years back, I lived in an area which experienced constant power blackouts regularly. We're talking about atleast 3 - 4 times a week. Some of this outages lasted for days. I remember going through light outages for 3 days. That's when I had the idea to try to solve this problem using what I already had, programming. I noticed that part of the long black out problems was due to the delay in reporting the issue. The reason, people didn't have the contacts to the power company or an easy to follow channel to do this. That's when I decided to build lights back for this exact reason. I hope it helps someone out there to get the help they need for their home or business power issues.
 
 ## Usage
 
