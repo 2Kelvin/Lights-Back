@@ -281,7 +281,7 @@ textarea:valid+.msgLabel {
         border-top-right-radius: 4px;
         flex: 1;
         border-bottom-left-radius: 0;
-        padding: 10px 30px;
+        padding: 0px 30px;
     }
 
     input,
