@@ -1,51 +1,49 @@
 form {
     background-color: white;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 1.5em 2px;
+    overflow: hidden;
 }
 
 input,
 textarea {
-    font-family: 'Rubik', sans-serif;
-    font-size: 13px;
     border: 1px solid rgb(39, 39, 39, 0.8);
     border-radius: 5px;
     outline: none;
-    width: 295px;
+    width: 94%;
+    font-size: 1em;
 }
 
 input {
-    height: 35px;
+    height: 3em;
     padding: 0 10px;
 }
 
 textarea {
-    height: 170px;
+    height: 10em;
     padding: 7px 10px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .inpContainer {
-    margin-bottom: 18px;
+    margin-bottom: 1em;
     position: relative;
+    width: 96%;
 }
 
 .labels {
     position: absolute;
     top: 30%;
     left: 5px;
-    /* transform: translateY(-50%); */
     padding: 0 5px;
     transition: 0.4s ease all;
     -moz-transition: 0.4s ease all;
     -webkit-transition: 0.4s ease all;
     pointer-events: none;
-    color: rgba(0, 0, 0, 0.75);
+    color: rgba(0, 0, 0, 0.85);
 }
 
 input {
@@ -56,15 +54,15 @@ input {
         ~.labels {
             background-color: white;
             color: #0299CE;
-            font-size: 11px;
-            top: -9px;
+            font-size: 75%;
+            top: -8px;
         }
     }
 }
 
 input:not(:placeholder-shown)~.labels {
-    top: -9px;
-    /* font-size: 13px; */
+    top: -8px;
+    font-size: 75%;
     background-color: white;
     color: #0299CE;
 }
@@ -77,7 +75,7 @@ input:not(:placeholder-shown)~.labels {
     transition: 0.4s ease all;
     pointer-events: none;
     padding: 0 5px;
-    color: rgba(0, 0, 0, 0.75);
+    color: rgba(0, 0, 0, 0.85);
 }
 
 textarea:focus {
@@ -87,265 +85,144 @@ textarea:focus {
 textarea:focus+.msgLabel,
 textarea:valid+.msgLabel {
     color: #0299CE;
-    top: -10px;
     background-color: white;
-    font-size: 11px;
+    top: -7px;
+    font-size: 75%;
 }
 
 .sendButton {
-    height: 45px;
+    height: 3.5em;
+    font-size: 1em;
     background: linear-gradient(to right, #00337F, #0299CE);
     border: none;
-    margin-left: 186px;
-    width: 130px;
+    width: 11em;
+    letter-spacing: 1px;
     color: white;
     font-weight: 500;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    margin: 0;
+    display: flex;
+    align-self: end;
+    margin-right: 1%;
 }
 
 .sendButton:active {
-    transform: scale(0.98);
+    transform: scale(0.95);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
-/* ================================= MEDIA QUERIES ============================ */
+/* =========================== MEDIA QUERIES ===================== */
 
-/* 250px - 300px */
-@media screen and (min-width: 250px) and (max-width: 300px) {
-    input,
-    textarea {
-        width: 200px;
+@media screen and (min-width: 450px) {
+    .inpContainer {
+        width: 97%;
     }
-
-    .sendButton {
-        margin-left: 91px;
-    }
-}
-
-/* 300px - 360px */
-@media screen and (min-width: 300px) and (max-width: 360px) {
 
     input,
     textarea {
-        width: 250px;
+        width: 96%;
     }
 
     .sendButton {
-        margin-left: 142px;
+        margin-right: 2%;
     }
 }
 
-/* 420px - 500px */
-@media screen and (min-width: 420px) and (max-width: 500px) {
-
-    input,
-    textarea {
-        width: 360px;
-    }
-
-    .sendButton {
-        margin-left: 252px;
-    }
-}
-
-/* 500px - 540px */
-@media screen and (min-width: 500px) and (max-width: 540px) {
-
-    input,
-    textarea {
-        width: 420px;
-    }
-
-    .sendButton {
-        margin-left: 309px;
-    }
-}
-
-/* 540px - 600px */
-@media screen and (min-width: 540px) and (max-width: 600px) {
-
-    input,
-    textarea {
-        width: 460px;
-    }
-
-    .sendButton {
-        margin-left: 352px;
-    }
-}
-
-/* min 600px */
 @media screen and (min-width: 600px) {
-    form {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
 
     input,
     textarea {
-        width: 480px;
-        font-size: 14px;
-    }
-
-    .sendButton {
-        height: 55px;
-        width: 140px;
-        margin-left: 360px;
-    }
-
-    input {
-        height: 40px;
-    }
-}
-
-/* 720px */
-@media screen and (min-width: 720px) {
-    form {
-        padding-top: 55px;
-        padding-bottom: 55px;
-    }
-
-    input,
-    textarea {
-        width: 620px;
-    }
-
-    .sendButton {
-        margin-left: 500px;
-    }
-}
-
-/* 840px */
-@media screen and (min-width: 840px) {
-    input,
-    textarea {
-        width: 690px;
-    }
-
-    input {
-        height: 45px;
-    }
-
-    textarea {
-        height: 200px;
-    }
-
-    .sendButton {
-        margin-left: 572px;
-    }
-
-    textarea:focus+.msgLabel,
-    textarea:valid+.msgLabel {
-        font-size: 13px;
-    }
-
-    input {
-        &:focus {
-            border: 1px solid rgba(2, 152, 207, 0.9);
-            outline: none;
-
-            ~.labels {
-                background-color: white;
-                color: #0299CE;
-                font-size: 13px;
-                top: -9px;
-            }
-        }
-    }
-
-    input:not(:placeholder-shown)~.labels {
-        top: -9px;
-        font-size: 13px;
-        background-color: white;
-        color: #0299CE;
-    }
-}
-
-/* 920px - 1024px */
-@media screen and (min-width: 920px) and (max-width: 1024px) {
-    input,
-    textarea {
-        width: 790px;
-    }
-
-    .sendButton {
-        margin-left: 673px;
-    }
-}
-
-/*  big screens  */
-@media screen and (min-width: 1024px) {
-    form {
-        border-top-right-radius: 4px;
-        flex: 1;
-        border-bottom-left-radius: 0;
-        padding: 0px 30px;
-    }
-
-    input,
-    textarea {
-        display: block;
-        width: 350px;
-        font-size: 15px;
-    }
-
-    textarea {
-        height: 220px;
-        font-size: 14px;
+        width: 97%;
     }
 
     .inpContainer {
-        margin-bottom: 24px;
+        width: 98%;
     }
 
     .sendButton {
-        margin-left: 192px;
-        width: 180px;
-        height: 55px;
+        margin-right: 0.47%;
     }
 }
 
-/* 1200px */
+@media screen and (min-width: 800px) {
+    .sendButton {
+        margin-right: 1%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    input,
+    textarea {
+        width: 98%;
+    }
+
+    .inpContainer {
+        width: 99%;
+    }
+
+    .sendButton {
+        margin-right: 0.1%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    form {
+        flex: 1;
+        padding: 1.5em 10px;
+    }
+
+    input,
+    textarea {
+        width: 96%;
+    }
+
+    .inpContainer {
+        width: 99%;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     form {
-        padding: 0 50px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
-/* 1400px */
-@media screen and (min-width: 1400px) {
-    form {
-        padding: 0 70px;
-    }
-}
-
-/* 1520px */
 @media screen and (min-width: 1520px) {
     form {
-        padding: 0 80px;
-    }
-
-    input,
-    textarea {
-        width: 400px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .sendButton {
-        margin-left: 242px;
+        margin-right: 0.4%;
     }
 }
 
-/* 1800px */
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1620px) {
+    form {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
 
-    input,
-    textarea {
-        width: 450px;
+@media screen and (min-width: 1728px) {
+    form {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .sendButton {
-        margin-left: 291px;
+        margin-right: 0.9%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    form {
+        padding-left: 45px;
+        padding-right: 45px;
     }
 }

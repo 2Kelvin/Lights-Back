@@ -2,45 +2,13 @@ footer {
     text-align: center;
 }
 
-.socialIconsDiv {
-    display: flex;
-    place-content: center;
-    margin-top: 10px;
+footer .socialIconsDiv {
+    margin: 1em 0;
 }
 
-.footerIcon {
-    font-size: 40px;
-    margin: 5px;
-    cursor: pointer;
+footer .socialIconsDiv .footerIcon {
+    height: 3.1em;
+    width: 3.1em;
+    margin: 0 0.8em;
     color: black;
-}
-
-small {
-    font-weight: 500;
-}
-
-
-/* ================================= MEDIA QUERIES ============================ */
-
-/* min 600px */
-@media screen and (min-width: 600px) {
-    .socialIconsDiv {
-        margin-top: 20px;
-    }
-
-    .footerIcon {
-        font-size: 42px;
-        margin: 0 10px;
-    }
-}
-/* ================================= big screens ============================= */
-@media screen and (min-width: 1024px) {
-    footer {
-        padding-bottom: 10px;
-        margin-top: 50px;
-    }
-
-    .footerIcon {
-        font-size: 42px;
-    }
 }

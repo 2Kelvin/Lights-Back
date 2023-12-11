@@ -1,225 +1,118 @@
 .otherContacts {
-    background-color: #00337F;
-    border-radius: 4px;
-    margin-bottom: 50px;
-    padding: 40px 0;
+    background-color: var(--blue);
+    color: white;
+    padding: 2em 5px;
+    margin-bottom: 4em;
 }
 
 .otherContacts h2 {
     text-align: center;
-    color: white;
-    margin-top: 0;
-    margin-bottom: 25px;
+    margin: 0;
+    margin-bottom: 1.8em;
 }
 
-.parent {
-    display: flex;
-    place-content: center;
-}
-
-.childDiv {
-    background-color: white;
-    width: 155px;
-    height: 150px;
+.otherContacts .parent {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.tel {
-    margin-right: 16px;
+.otherContacts .parent .childDiv {
+    background-color: white;
+    color: black;
+    height: 13em;
+    width: 15em;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    border-radius: 2px;
 }
 
-.tel p {
+.otherContacts .parent .tel {
+    margin-bottom: 2.5em;
+}
+
+.childDiv p {
     margin: 0;
+    margin-bottom: 2px;
+    font-weight: 500;
 }
 
 .childDiv h3 {
-    font-size: 13px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.otherContacts .parent .ussd h3 {
+    margin-bottom: 1.5em;
 }
 
 
-/* ================================= MEDIA QUERIES ============================ */
+/* =========================== MEDIA QUERIES ===================== */
 
-/* 250px - 300px */
-@media screen and (min-width: 250px) and (max-width: 300px) {
-    .childDiv {
-        width: 110px;
-        height: 120px;
-    }
-
-    .tel {
-        margin-right: 8px;
-    }
-
-    .childDiv h3 {
-        font-size: 0.7em;
-    }
-    .childDiv p {
-        font-size: 0.9em;
-    }
-}
-
-/* 300px - 360px */
-@media screen and (min-width: 300px) and (max-width: 360px) {
-    .childDiv {
-        width: 130px;
-        height: 140px;
-    }
-
-    .tel {
-        margin-right: 30px;
-    }
-
-    .childDiv h3 {
-        font-size: 0.8em;
-    }
-}
-
-/* 420px - 500px */
-@media screen and (min-width: 420px) and (max-width: 500px) {
-    .tel {
-        margin-right: 50px;
-    }
-}
-
-/* 500px - 540px */
-@media screen and (min-width: 500px) and (max-width: 540px) {
-    .tel {
-        margin-right: 50px;
-    }
-}
-
-/* 540px - 600px */
-@media screen and (min-width: 540px) and (max-width: 600px) {
-    .tel {
-        margin-right: 50px;
-    }
-}
-
-/* min 600px */
 @media screen and (min-width: 600px) {
+    .otherContacts .parent {
+        flex-direction: row;
+    }
+
+    .otherContacts .parent .tel {
+        margin-bottom: 0;
+    }
+
+    .otherContacts .parent .ussd h3 {
+        margin-bottom: 3.1em;
+    }
+}
+
+@media screen and (min-width: 800px) {
     .otherContacts {
-        padding: 50px 0;
+        padding: 3.4em 5px;
     }
 
-    .otherContacts h2 {
-        margin-bottom: 35px;
-    }
-
-    .childDiv {
-        width: 200px;
-        height: 180px;
-    }
-
-    .childDiv h3 {
-        font-size: 1em;
-    }
-
-    .tel {
-        margin-right: 60px;
+    .otherContacts .parent {
+        margin: 0 3em;
     }
 }
 
-/* 720px */
-@media screen and (min-width: 720px) {
-    .childDiv {
-        width: 240px;
-        height: 200px;
-    }
-
-    .tel {
-        margin-right: 80px;
-    }
-}
-
-/* 840px */
-@media screen and (min-width: 840px) {
-    .tel {
-        margin-right: 120px;
-    }
-}
-
-/* 920px - 1024px */
-@media screen and (min-width: 920px) and (max-width: 1024px) {
-    .tel {
-        margin-right: 130px;
-    }
-
-    .childDiv {
-        width: 250px;
-        height: 210px;
-    }
-
+@media screen and (min-width: 900px) {
     .otherContacts {
-        padding: 60px 0;
+        padding: 3.4em 5px;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 4em;
+    }
+
+    .otherContacts .parent {
+        margin: 0 4em;
     }
 }
 
-/* big screens */
 @media screen and (min-width: 1024px) {
     .otherContacts {
-        margin-bottom: 60px;
-        width: 75%;
-        margin: auto;
-    }
-
-    .otherContacts h2 {
-        margin-bottom: 50px;
-    }
-
-    .childDiv {
-        width: 260px;
-        height: 220px;
-    }
-
-    .tel {
-        margin-right: 80px;
-    }
-
-    .otherContacts p {
-        font-weight: 500;
-    }
-
-    .parent {
-        margin-bottom: 15px;
+        width: 62%;
     }
 }
 
-/* 1200px */
-@media screen and (min-width: 1200px) {
-    .otherContacts {
-        width: 65%;
-    }
-}
-
-/* 1400px */
-@media screen and (min-width: 1400px) {
-    .otherContacts {
-        width: 59%;
-    }
-}
-
-/* 1520px */
-@media screen and (min-width: 1520px) {
+@media screen and (min-width: 1320px) {
     .otherContacts {
         width: 54%;
     }
 }
 
-/* 1640px */
-@media screen and (min-width: 1640px) {
+@media screen and (min-width: 1620px) {
     .otherContacts {
         width: 50%;
     }
 }
 
-/* 1800px */
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1728px) {
     .otherContacts {
         width: 45%;
+    }
+}
+
+@media screen and (min-width: 1870px) {
+    .otherContacts {
+        width: 40%;
     }
 }

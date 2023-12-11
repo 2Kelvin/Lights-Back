@@ -1,45 +1,62 @@
 .formSection {
-    display: flex;
-    flex-direction: column;
     background: linear-gradient(to bottom right, #F9C903, #0299CE, #00337F);
-    height: fit-content;
-    border-radius: 4px;
-    margin-bottom: 50px;
+    margin-bottom: 4em;
 }
 
-/* ================================= MEDIA QUERIES ============================ */
 
-/* big screens */
-@media screen and (min-width: 1024px) {
+/* =========================== MEDIA QUERIES ===================== */
+
+@media screen and (min-width: 800px) {
     .formSection {
-        height: 95vh;
-        background: linear-gradient(to bottom right, #F9C903, #0299CE, #00337F);
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-        margin-bottom: 60px;
-        border-radius: 4px;
-        width: 97%;
+        /* for blur on tip; margin top */
+        padding-top: 12px;
     }
 }
 
-/* 1200px */
+@media screen and (min-width: 1024px) {
+    .formSection {
+        display: flex;
+        padding-top: 0;
+        /*removing the top space on form*/
+        margin-top: 1em;
+    }
+}
+
 @media screen and (min-width: 1200px) {
+    .formSection {
+        margin: auto;
+        width: 94%;
+        margin-bottom: 4em;
+        margin-top: 2em;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .formSection {
+        width: 92%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
     .formSection {
         width: 90%;
     }
 }
 
-/* 1640px */
-@media screen and (min-width: 1640px) {
+@media screen and (min-width: 1520px) {
     .formSection {
         width: 85%;
     }
 }
 
-/* 1800px */
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1728px) {
     .formSection {
         width: 80%;
+    }
+}
+
+@media screen and (min-width: 1870px) {
+    .formSection {
+        width: 75%;
     }
 }

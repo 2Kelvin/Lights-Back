@@ -1,27 +1,21 @@
+:root {
+  --yellow: #F9C903;
+  --blue: #00337F;
+}
+
 .App {
   padding: 10px;
 }
 
 /* ================================= MEDIA QUERIES ============================ */
-
-/* min 600px */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
   .App {
     padding: 15px;
   }
 }
 
-/* big screens */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1620px) {
   .App {
-    padding: 0 20px;
-    padding-top: 20px;
-  }
-}
-
-/* 1920px */
-@media screen and (min-width: 1920px) {
-  .App {
-    padding-top: 25px;
+    padding: 25px;
   }
 }
