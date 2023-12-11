@@ -1,6 +1,7 @@
 import './Footer.css';
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
+// attributes the developer of the web app
 export default function Footer() {
     return (
         <footer>

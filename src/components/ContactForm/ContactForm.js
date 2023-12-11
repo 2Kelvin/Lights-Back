@@ -5,9 +5,12 @@ import StatusCard from '../StatusCard/StatusCard';
 import { MdMarkEmailRead } from "react-icons/md";
 import { RiMailCloseLine } from "react-icons/ri";
 
+// this is the actual form; it's used to send the email
 export function ContactUs() {
     const form = useRef();
+    // if email is sent, it updates this state & displays a successful email sent card
     const [success, setSuccess] = useState('');
+    // if email is not sent, it updates this state & displays an error sending email card
     const [error, setError] = useState('');
 
     function sendEmail(e) {
@@ -16,13 +19,17 @@ export function ContactUs() {
         emailjs.sendForm('service_3zl05qc', 'template_xtev06r', form.current, 'm83FmjUWYqxNFbQeK')
             .then((result) => {
                 console.log(result.text);
+                // displaying an email sent successfully card
                 setSuccess('successful')
+                // removing the email sent successfully sent card after 3seconds
                 setTimeout(() => { setSuccess('') }, 3000);
                 // clearing all input fields
                 form.current.reset();
             }, (error) => {
                 console.log(error.text);
+                // displaying an 'error sending email' card
                 setError('error');
+                // removing the 'error sending email' card after 3seconds
                 setTimeout(() => { setError('') }, 3000);
             });
     };

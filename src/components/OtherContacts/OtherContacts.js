@@ -1,5 +1,6 @@
 import './OtherContacts.css';
 
+// contains the blue section of other contacts to reach the power company
 function OtherContacts() {
     return(
         <section className="otherContacts">

@@ -1,6 +1,7 @@
 import './Tips.css';
 import WebsiteHeading from '../WebsiteHeading/WebsiteHeading';
 
+// this is the Tips section; with guidelines on how to fill the form efficiently
 export default function Tips() {
     return (
         <div className="tips">
@@ -29,6 +30,6 @@ export default function Tips() {
                     Include your full name in the name section (provide atleast two names).
                 </li>
             </ul>
-        </div >
+        </div>
     );
 }
