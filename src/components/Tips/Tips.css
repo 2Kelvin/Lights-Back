@@ -43,21 +43,21 @@
 
 @media screen and (min-width: 1200px) {
     .tips {
-        margin: 16px;
-        padding: 16px;
+        margin: 40px;
+        padding: 20px;
     }
 }
 
 @media screen and (min-width: 1400px) {
     .tips {
-        margin: 20px;
-        padding: 20px;
+        margin: 42px;
+        padding: 22px;
     }
 }
 
 @media screen and (min-width: 1520px) {
     .tips {
-        margin: 25px;
-        padding: 25px;
+        margin: 45px;
+        padding: 28px;
     }
 }

@@ -51,5 +51,5 @@ If you want to contribute on this project feel free to contact me.
 This project aims to achieve these goals:
 
 - [x] reduce time searching for a way to reach the power company.
-- [x] act as direct portal to the power company and get help as soon as possible.
+- [x] act as a direct portal to the power company and get help as soon as possible.
 - [x] have all the power company's contacts in one place for clients to find and use responsibly.
