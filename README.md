@@ -8,7 +8,9 @@
 
 Link to the web app: Click [here](https://github.com/2Kelvin/lights-back)
 
-Developer's LinkedIn: Click [here](https://www.linkedin.com/in/kelvin-njihia)
+Lights Back LinkedIn blog post: Click [here](https://www.linkedin.com/pulse/project-lights-back-kelvin-njihia-3npyf/)
+
+My LinkedIn Profile: Click [here](https://www.linkedin.com/in/kelvin-njihia)
 
 ## What inspired Lights Back? The story behind the app
 
