@@ -26,7 +26,7 @@
     .formSection {
         margin: auto;
         width: 94%;
-        margin-bottom: 4em;
+        margin-bottom: 5em;
         margin-top: 2em;
     }
 }
@@ -58,6 +58,6 @@
 @media screen and (min-width: 1870px) {
     .formSection {
         width: 75%;
-        margin-bottom: 5.5em;
+        margin-bottom: 6em;
     }
 }
